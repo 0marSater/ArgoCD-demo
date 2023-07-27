@@ -1,0 +1,14 @@
+#deployment values
+appName: nginx
+replicaCount: 3
+imageName: nginx
+imageTag: 1.14.2
+port: 80
+
+#service values
+serviceName: nginx-service
+targetPort: 80
+
+
+ingress:
+  enabled: true
