@@ -5,7 +5,7 @@ kubectl create ns argocd || true
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
 ################ Sleep for 100 second untill argoCD deployed ################
-sleep 300
+sleep 10
 
 ################ Modify argoCD service type ################
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
