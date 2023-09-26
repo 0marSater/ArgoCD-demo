@@ -1,6 +1,6 @@
 #deployment values
 appName: nginx
-replicaCount: 3
+replicaCount: 6
 imageName: nginx
 imageTag: 1.14.2
 port: 80
