@@ -7,5 +7,6 @@ sleep 10
 ################ Delete argoCD namespace ################
 kubectl delete namespace argocd 
 
+
 ################ Delete argoCD.password.txt ################
 rm -f argoCD.password.txt
