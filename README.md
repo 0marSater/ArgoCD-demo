@@ -71,6 +71,6 @@ For installing Nginx as an Ingress controller,you can add it through ArgoCD GUI 
 ### Cleanup
 Remember to clean up your resources when you're done:
 ``` bash
-./. uninstall-argoCD-script.sh
+./uninstall-argoCD-script.sh
 ```
 
