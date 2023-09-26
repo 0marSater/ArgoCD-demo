@@ -9,4 +9,4 @@ kubectl delete namespace argocd
 
 
 ################ Delete argoCD.password.txt ################
-rm -f argoCD.password.txt
+rm argoCD-password.txt
