@@ -45,7 +45,7 @@ sleep 300
 Change the service type of the ArgoCD server to NodePort to expose it externally (if necessary):
 
  ```bash
-kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
+kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
 ```
 
 ### Extract ArgoCD Admin Password
